@@ -1,4 +1,4 @@
-TinyDash
+RocketDash
 ========
 
 **A Tiny IoT Dashboard, small enough to serve from embedded devices**
