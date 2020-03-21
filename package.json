@@ -1,0 +1,25 @@
+{
+  "name": "rocketdash",
+  "version": "0.0.1",
+  "description": "Simple dashboard lib based on tinydash",
+  "main": "tinydash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adastra-rocketry/RocketDash.git"
+  },
+  "keywords": [
+    "dashboard",
+    "tinydash",
+    "chart",
+    "gauge"
+  ],
+  "author": "AdAstra Rocketry",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/adastra-rocketry/RocketDash/issues"
+  },
+  "homepage": "https://github.com/adastra-rocketry/RocketDash#readme"
+}
