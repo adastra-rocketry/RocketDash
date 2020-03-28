@@ -56,7 +56,11 @@ body {
 .td_btn_a:hover { background-color: #036; }
 .td_btn[pressed="1"] .td_btn_a { color: #09F; }
 .td_btn[pressed="1"] .td_btn_a:hover { background-color: #06B; }
+div.td_toggle[pressed="1"] .td_toggle_a {
+  background-color: #008877;
+}
 .td_toggle_a {
+  background-color: #cc0088;
   margin-top: 20px;
   margin-left: auto; margin-right: auto; /* centered */
   border: 2px solid #fff;
