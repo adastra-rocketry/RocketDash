@@ -56,9 +56,6 @@ body {
 .td_btn_a:hover { background-color: #036; }
 .td_btn[pressed="1"] .td_btn_a { color: #09F; }
 .td_btn[pressed="1"] .td_btn_a:hover { background-color: #06B; }
-div.td_toggle[pressed="1"] .td_toggle_a {
-  background-color: #008877;
-}
 .td_toggle_a {
   background-color: #cc0088;
   margin-top: 20px;
@@ -67,7 +64,10 @@ div.td_toggle[pressed="1"] .td_toggle_a {
   border-radius: 16px;
   width: 50px;
   height: 28px;
+  cursor: pointer;
 }
+.td_toggle[pressed="1"] .td_toggle_a { background-color: #008877; }
+.td_toggle[pressed="1"] .td_toggle_a:hover,
 .td_toggle_a:hover {
   background-color: #06B;
 }
