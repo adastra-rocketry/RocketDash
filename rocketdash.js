@@ -294,12 +294,21 @@ var TD = {};
     el.onclick = function() {
       togglePressed(el);
       if (!el.opts.onchange)
-        el.remove();
+        el.hide();
     };
     el.remove = function() {
       if (el.parentNode)
         el.parentNode.removeChild(el);
     };
+    el.show = function() {
+      el.classList.add("hiddenmodal");
+    };
+    el.hide = function() {
+      el.classList.remove("hiddenmodal");
+    };
+    el.toggle = function() {
+      el.classList.toggle("hiddenmodal");
+    }
     return el;
   };
 

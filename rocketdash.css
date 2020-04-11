@@ -37,8 +37,6 @@ body {
   vertical-align: middle;
   font-size: 20px;
 }
-.td_btn {
-}
 .td_btn_a {
   margin-top: 20px;
   margin-left: auto; margin-right: auto; /* centered */
@@ -146,4 +144,7 @@ body {
   left: 50%; top: 50%;
   transform: translate(-50%, -50%);
   font-size: 40px;
+}
+.hiddenmodal {
+  display: none;
 }
