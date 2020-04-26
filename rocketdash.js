@@ -301,10 +301,10 @@ var TD = {};
         el.parentNode.removeChild(el);
     };
     el.show = function() {
-      el.classList.add("hiddenmodal");
+      el.classList.remove("hiddenmodal");
     };
     el.hide = function() {
-      el.classList.remove("hiddenmodal");
+      el.classList.add("hiddenmodal");
     };
     el.toggle = function() {
       el.classList.toggle("hiddenmodal");
